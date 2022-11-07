@@ -1,0 +1,60 @@
+igor.djuric@hotmail.rs Igor Djuric
+
+Klasa - skup metoda i atributa
+Objekat - jedna instanca klase
+
+class Student
+    attributes:
+      name
+      lastName
+      indexNumber
+    method:
+      getName
+      setName
+      setIndexNumber
+
+objekat - Milica
+  attributes:
+    name- Milica
+    lastName - Nedic
+    indexNumber - 1
+
+
+The Four Pillars of Object-Oriented Programming
+  Abstraction.
+  Encapsulation.
+  Inheritance.
+  Polymorphism.
+
+
+Materijali za citanje:
+* Object oriented programming (any book)
+* Clean code (Uncle Bob)
+* Philosophy of software design
+* Design patterns - nakon celog kursa
+
+
+Sta smo do sada naucili:
+
+* Objekat vs Klasa razlika
+* Sta cini klasu
+* 4 koncepta OO pristupa (2)
+* Modifikatori pristupa - public i private
+* 2 zadatka
+
+Ideja za citanje: Unit testovi
+
+https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+
+Bonus: rad sa memorijom i gde se smestaju objekti
+
+Sta smo do sada naucili:
+
+* Objekat vs Klasa razlika
+* Sta cini klasu
+* 4 koncepta OO pristupa (2)
+* Modifikatori pristupa - public i private
+* Konstruktor
+* Destruktor
+* Staticke metode
+* Tipovi podataka
