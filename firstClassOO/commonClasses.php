@@ -1,5 +1,37 @@
 <?php
 
+// DOMACI
+class Calculator {
+  private string $name = "Dig i Tron";
+  public float $num1;
+  public float $num2;
+  private float $result;
+
+  function __construct($num1, $num2)
+  {
+    $this->num1 = $num1;
+    $this->num2 = $num2;
+  }
+  
+  function add() {
+    $this->result = $this->num1 + $this->num2;
+  }
+  function sub() {
+    $this->result = $this->num1 - $this->num2;
+  }
+  function mul() {
+    $this->result = $this->num1 * $this->num2;
+  }
+  function div() {
+    $this->result = $this->num1 / $this->num2;
+  }
+
+  function getResult() {
+    return $this->name . ": " . round($this->result, 2);
+  }
+}
+
+
 class Vehicle {
   private $manufacturer;
   private $type;
@@ -62,6 +94,8 @@ class Student {
     return $this->name . " " . $this->lastName . " " . $this->grade;
   }
 }
+
+
 
 
 
